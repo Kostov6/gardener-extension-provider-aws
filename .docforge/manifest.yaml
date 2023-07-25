@@ -8,7 +8,8 @@ structure:
       weight: 1
       categories:
         - Developers
-  fileTree: /docs/development
+  structure:
+  - fileTree: /docs/development
 - dir: operations
   properties:
     frontmatter:
@@ -16,7 +17,8 @@ structure:
       weight: 2
       categories:
         - Operators
-  fileTree: /docs/operations
+  structure:
+  - fileTree: /docs/operations
 - dir: usage
   properties:
     frontmatter:
@@ -32,4 +34,5 @@ structure:
       weight: 4
       categories:
         - Developers
-  fileTree: /docs/tutorials
+  structure:
+  - fileTree: /docs/tutorials
