@@ -1,4 +1,35 @@
 structure:
 - file: _index.md
   source: /README.md
-- fileTree: /docs
+- dir: development
+  properties:
+    frontmatter:
+      title: Development
+      weight: 1
+      categories:
+        - Developers
+  fileTree: /docs/development
+- dir: operations
+  properties:
+    frontmatter:
+      title: Operations
+      weight: 2
+      categories:
+        - Operators
+  fileTree: /docs/operations
+- dir: usage
+  properties:
+    frontmatter:
+      title: Usage
+      weight: 3
+      categories:
+        - Users
+  fileTree: /docs/usage
+- dir: tutorials
+  properties:
+    frontmatter:
+      title: Tutorials
+      weight: 4
+      categories:
+        - Developers
+  fileTree: /docs/tutorials
