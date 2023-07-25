@@ -26,7 +26,8 @@ structure:
       weight: 3
       categories:
         - Users
-  fileTree: /docs/usage
+  structure:
+  - fileTree: /docs/usage
 - dir: tutorials
   properties:
     frontmatter:
