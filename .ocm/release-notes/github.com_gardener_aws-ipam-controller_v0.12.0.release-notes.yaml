@@ -1,0 +1,36 @@
+ocm:
+  component_name: github.com/gardener/aws-ipam-controller
+  component_version: v0.12.0
+release_notes:
+- audience: user
+  author:
+    hostname: github.com
+    type: githubUser
+    username: ScheererJ
+  category: feature
+  contents: The helm chart now includes a VPA resource.
+  mimetype: text/markdown
+  reference: '[#406](https://github.com/gardener/aws-ipam-controller/pull/406)'
+  type: standard
+- audience: operator
+  author:
+    hostname: github.com
+    type: githubUser
+    username: Velin-Todorov
+  category: other
+  contents: The update mode of the VerticalPodAutoscaler resources configured in aws-ipam-controller
+    is now explicitly set to `InPlaceOrRecreate`, reflecting the actual runtime behavior
+    after the unconditional enablement of the `VPAInPlaceUpdates` feature gate.
+  mimetype: text/markdown
+  reference: '[#402](https://github.com/gardener/aws-ipam-controller/pull/402)'
+  type: standard
+- audience: operator
+  author:
+    hostname: github.com
+    type: githubUser
+    username: domdom82
+  category: bugfix
+  contents: Improved kubeconfig and cidr validation. Removed unused cluster role capabilities
+  mimetype: text/markdown
+  reference: '[#492](https://github.com/gardener/aws-ipam-controller/pull/492)'
+  type: standard
